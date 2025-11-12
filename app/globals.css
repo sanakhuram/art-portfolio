@@ -3,7 +3,7 @@
 :root {
   --background: #F2ECE4;
   --foreground: #171717;
-  --sage: #748873;
+  --sage: #ADBDAC;
   --sand: #d1a980;
   --linen: #e5e0d8;
   --mist: #f8f8f8;
@@ -19,7 +19,8 @@
   --color-mist: var(--mist);
   --color-royal: var(--royal);
 
-  /* Fonts */
+  /* font tokens (from layout font variables) */
+  --font-display: var(--ff-display);
   --font-heading: var(--ff-heading);
   --font-body: var(--ff-body);
 }

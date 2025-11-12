@@ -1,16 +1,24 @@
 // app/lib/fonts.ts
-import { Corinthia, Indie_Flower } from 'next/font/google';
+import { League_Spartan, Inter, Cormorant_Garamond } from 'next/font/google';
 
-// ✨ Elegant headings
-export const headingFont = Corinthia({
-  variable: '--ff-heading',
+// Bold display for hero
+export const display = League_Spartan({
   subsets: ['latin'],
-  weight: '400',
+  weight: ['700', '800', '900'],
+  variable: '--ff-display',
 });
 
-// 🖋️ Handwritten body / blog text
-export const bodyFont = Indie_Flower({
-  variable: '--ff-body',
+// Elegant serif for nav/smaller headings
+export const heading = Cormorant_Garamond({
   subsets: ['latin'],
-  weight: '400',
+  weight: ['400', '500', '700'],
+  style: ['italic'],
+  variable: '--ff-heading',
+});
+
+// Neutral body
+export const body = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--ff-body',
 });
