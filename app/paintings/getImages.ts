@@ -9,7 +9,7 @@ const FOLDER_MAP: Record<Category, string> = {
   tasawwuf: "tasawwuf",
   mughal: "mughal",
   mythology: "myth",
-  Acceptance: "somemore",
+  acceptance: "acceptance",
 };
 
 export function getCategoryData(category: Category): CategoryInfo {

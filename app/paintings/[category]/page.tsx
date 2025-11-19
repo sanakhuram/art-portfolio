@@ -23,7 +23,8 @@ export default async function CategoryPage({ params }: { params: Params }) {
   const data = getCategoryData(cat);
 
   return (
-    <main className="bg-background min-h-screen pt-16">
+    <main className="bg-background min-h-svh pt-6 md:pt-10">
+
       <div className="mx-auto max-w-6xl px-6 py-10">
         
         {/* Breadcrumb */}

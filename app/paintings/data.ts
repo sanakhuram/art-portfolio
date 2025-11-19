@@ -4,7 +4,7 @@ export const CATEGORIES = [
   'tasawwuf',
   'mughal',
   'mythology',
-  'Acceptance',
+  'acceptance',
 ] as const;
 
 export type Category = typeof CATEGORIES[number];

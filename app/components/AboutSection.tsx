@@ -1,125 +1,106 @@
 'use client';
 
-import Image from 'next/image';
-import { useState } from 'react';
-import { LuChevronLeft, LuChevronRight } from 'react-icons/lu';
+import Image from "next/image";
+import { useState } from "react";
+import { LuChevronLeft, LuChevronRight } from "react-icons/lu";
 
-const IMAGES = [
-  '/images/myself1.png',
-  '/images/myself2.png',
-  '/images/myself3.png',
-];
+const SLIDES = [
+  {
+    heading: "ABOUT ME",
+    image: "/images/self1.png",
+    text: `I’m a traditional miniature artist who grew up surrounded by stories, folklore, and poetry — the kind that travels through families long before it reaches paper. Life brought me from Pakistan to Norway, but my roots never left my brush. My recent work is all about acceptance and belonging; merging the warmth of tradition with the quiet Nordic light that now shapes my days.`,
+  },
+  {
+    heading: "PRACTICE",
+    image: "/images/self2.png",
+    text: `My practice sits between the old and the new. I keep the discipline and precision of miniature painting — careful lines, symbolic elements, and narrative cycles — but I let my palette evolve. The colors shifted from classic pigments to sepia tones and weather-softened hues. I like painting stories that move in circles: beginnings looping back to endings.`,
+  },
+  {
+    heading: "STORYTELLING",
+    image: "/images/self3.png",
+    text: `I’m deeply drawn to folklore, myths, and character-building. I create my own figures, shaped by poetry, memory, and fragments of the world around me. Every piece begins with a narrative — a quiet moment, a wandering idea — and grows into a character or a scene. I like storytelling that isn’t loud… it’s stitched into the lines and patterns themselves.`,
+  },
+{
+  heading: "EDUCATION",
+  image: "/images/hero-bird.png",
+  text: `•Noroff School of Technology & Digital Media, Norway  
+  Frontend Development — Higher Professional Diploma (2 years)
 
-const PARAS = [
-  `I tell stories with tiny lines. My work sits between tradition and today—mythological scenes, intricate patterns, and quiet moments from a journey that started in Pakistan and now breathes Nordic light in Norway.`,
-  `My palette has moved from sepia and monochrome to softer modern tones, yet I keep traditional miniature elements to honor the roots.`,
-  `I shifted from painting into design, but carried the same discipline: precision, patience, and respect for form. The result is a bridge—story illustrations, mythic fragments, and patterns that hold memory.`,
+• National College of Arts, Pakistan 
+  Master of Interior Design (MA, 2 years)
+
+• Kinnaird College for Women, Pakistan  
+  Bachelor of Fine Arts (BFA, 4 years)`,
+},
+
 ];
 
 export default function About() {
-  const [p, setP] = useState(0); // paragraph index
-  const [img, setImg] = useState(0); // image index
+  const [i, setI] = useState(0);
 
-  const canPrev = p > 0;
-  const canNext = p < PARAS.length - 1;
+  const prev = () => setI((v) => (v === 0 ? SLIDES.length - 1 : v - 1));
+  const next = () => setI((v) => (v === SLIDES.length - 1 ? 0 : v + 1));
 
-  const prevImg = () => setImg((n) => (n === 0 ? IMAGES.length - 1 : n - 1));
-  const nextImg = () => setImg((n) => (n === IMAGES.length - 1 ? 0 : n + 1));
+  const slide = SLIDES[i];
 
   return (
-    <section id="about" className="relative min-h-screen">
-      {/* Full background image */}
-      <Image
-        src="/images/bg.jpg"
-        alt="Background"
-        fill
-        priority
-        className="object-cover opacity-60"
-      />
-      <div className="absolute inset-0 bg-background/30" />
+   <section
+  id="about"
+  className="relative min-h-screen flex items-center justify-center px-4 pt-10 pb-16"
+>
 
-      {/* Content grid */}
-      <div className="relative grid md:grid-cols-2 gap-10 items-center min-h-screen px-6 sm:px-12 lg:px-20">
-        {/* LEFT: circular image carousel */}
-        <div className="flex items-center justify-center">
-          <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden shadow-xl ring-4 ring-royal/40">
-            <Image
-              src={IMAGES[img]}
-              alt="About portrait"
-              fill
-              className="object-cover"
-              sizes="(min-width:768px) 40vw, 80vw"
-            />
-            {/* carousel controls */}
-            <button
-              aria-label="Previous image"
-              onClick={prevImg}
-              className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/70 p-2 rounded-full shadow hover:bg-white transition"
-            >
-              <LuChevronLeft className="h-6 w-6 text-royal" />
-            </button>
-            <button
-              aria-label="Next image"
-              onClick={nextImg}
-              className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/70 p-2 rounded-full shadow hover:bg-white transition"
-            >
-              <LuChevronRight className="h-6 w-6 text-royal" />
-            </button>
-          </div>
-        </div>
+  <div className="relative z-10 w-full max-w-5xl grid md:grid-cols-2 gap-10 md:gap-14">
 
-        {/* RIGHT: text content */}
-        <div className="text-center md:text-left max-w-[640px] mx-auto">
-          <h2 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl tracking-tight text-foreground mb-3">
-            ABOUT ME
-          </h2>
+    {/* LEFT — circular image slider */}
+    <div className="flex items-center justify-center">
+      <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-full overflow-hidden ring-4 ring-royal/40 shadow-xl bg-background/20">
+        <Image
+          src={slide.image}
+          alt="Portrait"
+          fill
+          className="object-cover"
+        />
 
-          <p className="font-display text-base sm:text-lg text-foreground/90 mb-6">
-            <span className="font-semibold">Story Illustration &amp; Intricate Pattern</span>
-          </p>
+        {/* arrows */}
+        <button
+          onClick={prev}
+          className="absolute left-1 top-1/2 -translate-y-1/2 bg-white/40 backdrop-blur-sm p-2 rounded-lg shadow border border-royal/20 hover:bg-white/70 transition"
+        >
+          <LuChevronLeft className="w-5 h-5 text-royal" />
+        </button>
 
-          {/* Paragraph slider */}
-          <div className="mt-5 flex items-start justify-center md:justify-start gap-3">
-            <button
-              aria-label="Previous paragraph"
-              onClick={() => setP((n) => Math.max(0, n - 1))}
-              className={`p-2 rounded-full ring-1 ring-royal/15 hover:ring-royal/30 transition ${
-                !canPrev ? 'opacity-40 cursor-not-allowed' : ''
-              }`}
-              disabled={!canPrev}
-            >
-              <LuChevronLeft className="h-5 w-5" />
-            </button>
-
-            <div className="text-foreground/90 leading-relaxed text-base sm:text-lg max-w-[500px]">
-              {PARAS[p]}
-            </div>
-
-            <button
-              aria-label="Next paragraph"
-              onClick={() => setP((n) => Math.min(PARAS.length - 1, n + 1))}
-              className={`p-2 rounded-full ring-1 ring-royal/15 hover:ring-royal/30 transition ${
-                !canNext ? 'opacity-40 cursor-not-allowed' : ''
-              }`}
-              disabled={!canNext}
-            >
-              <LuChevronRight className="h-5 w-5" />
-            </button>
-          </div>
-
-          {/* dots for paragraph slider */}
-          <div className="mt-2 flex justify-center md:justify-start gap-1.5">
-            {PARAS.map((_, idx) => (
-              <span
-                key={idx}
-                className={`h-1.5 w-1.5 rounded-full ${
-                  p === idx ? 'bg-royal' : 'bg-royal/30'
-                }`}
-              />
-            ))}
-          </div>
-        </div>
+        <button
+          onClick={next}
+          className="absolute right-1 top-1/2 -translate-y-1/2 bg-white/40 backdrop-blur-sm p-2 rounded-lg shadow border border-royal/20 hover:bg-white/70 transition"
+        >
+          <LuChevronRight className="w-5 h-5 text-royal" />
+        </button>
       </div>
-    </section>
+    </div>
+
+    {/* RIGHT — text */}
+    <div className="text-center md:text-left px-2">
+      <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4">
+        {slide.heading}
+      </h2>
+
+      <p className="text-base sm:text-lg text-foreground/90 leading-relaxed whitespace-pre-line space-y-4">
+        {slide.text}
+      </p>
+
+      <div className="mt-5 flex justify-center md:justify-start gap-2">
+        {SLIDES.map((_, idx) => (
+          <span
+            key={idx}
+            className={`h-2.5 w-2.5 rounded-full ${
+              i === idx ? "bg-royal" : "bg-royal/30"
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
   );
 }

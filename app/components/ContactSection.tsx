@@ -31,26 +31,30 @@ export default function ContactSection() {
     <section className="w-full min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-20 py-20">
       <div className="relative flex flex-col md:flex-row w-full max-w-6xl rounded-lg shadow-lg bg-sage border-4 border-dashed border-white overflow-hidden p-6 sm:p-8">
         {/* PNG stamp */}
-        <div className="absolute top-4 right-4 w-16 h-16 md:w-20 md:h-20">
-          <Image
-            src="/images/stamp.png"
-            alt="Stamp"
-            fill
-            className="object-contain"
-            priority
-            sizes="(min-width: 768px) 80px, 64px"
-          />
+        <div className="absolute top-4 right-4 w-auto h-auto md:w-20 md:h-20">
+       <Image
+  src="/images/stamp.png"
+  alt="Stamp"
+  width={70}
+  height={90}          // pick the correct ratio for your actual PNG
+  className="object-contain border-amber-50 border-[6px] "
+  priority
+/>
+
         </div>
 
-        {/* Contact info */}
-        <div className="md:w-1/2 flex flex-col items-start justify-center border-b md:border-b-0 md:border-r border-white p-4 sm:p-6">
-          <h2
-            className={`${display.className ?? display.variable} text-5xl sm:text-6xl md:text-7xl text-white font-extrabold mb-4 tracking-tight`}
-          >
-            CONTACT
-            <br />
-            ME
-          </h2>
+     {/* Contact info */}
+<div className="md:w-1/2 flex flex-col items-start justify-center border-b md:border-b-0 md:border-r border-white p-4 sm:p-6">
+  <h2
+    className={`${display.className ?? display.variable}
+    text-4xl sm:text-5xl md:text-6xl lg:text-7xl
+    text-white font-extrabold mb-4 tracking-tight leading-[1.05]`}
+  >
+    CONTACT
+    <br />
+    ME
+  </h2>
+
 
           <p className={`${body.className ?? body.variable} mb-3 text-white text-base sm:text-lg`}>
             I’m open for web development projects, collaborations, and UX/UI design work. Feel free

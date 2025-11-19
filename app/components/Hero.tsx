@@ -1,14 +1,14 @@
-// components/Hero.tsx
 'use client';
 
 import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="min-h-[calc(100vh-4rem)] w-full grid md:grid-cols-[48%_52%] bg-background"> 
+    <section className="w-full min-h-screen flex flex-col md:grid md:grid-cols-[48%_52%] bg-background">
+
       {/* LEFT: big type */}
-      <div className="flex items-center">
-        <div className="w-full max-w-[520px] pl-6 sm:pl-10 lg:pl-20 py-10">
+      <div className="flex items-center justify-center md:justify-start py-10 md:py-0">
+        <div className="w-full max-w-[520px] pl-6 sm:pl-10 lg:pl-20">
           <h1 className="font-display font-extrabold leading-[0.82] text-6xl sm:text-8xl lg:text-9xl tracking-tight text-foreground">
             PORT<br/>FOLIO
           </h1>
@@ -25,10 +25,10 @@ export default function Hero() {
       </div>
 
       {/* RIGHT: circular image */}
-      <div className="relative flex items-center justify-center px-6 sm:px-10 lg:px-16">
-        <div className="relative aspect-square w-full max-w-[520px] sm:max-w-[580px] md:max-w-[620px] lg:max-w-[680px] overflow-hidden rounded-full border-20 border-sage shadow-xl">
+      <div className="relative flex items-center justify-center py-8 md:py-0 px-6 sm:px-10 lg:px-16">
+        <div className="relative aspect-square w-[75%] max-w-[420px] sm:max-w-[500px] md:max-w-[620px] lg:max-w-[680px] overflow-hidden rounded-full border-20 border-sage shadow-xl">
           <Image
-            src="/images/hero.svg" // your artwork
+            src="/images/hero.svg"
             alt="Artwork by Sana Khuram"
             fill
             priority
@@ -37,6 +37,7 @@ export default function Hero() {
           />
         </div>
       </div>
+
     </section>
   );
 }

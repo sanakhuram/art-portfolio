@@ -19,7 +19,8 @@ export default async function PaintingPage({ params }: { params: Params }) {
   if (!painting) notFound();
 
   return (
-    <main className="bg-background min-h-screen pt-24 pb-24">
+    <main className="bg-background min-h-svh pt-6 md:pt-10">
+
       <div className="mx-auto max-w-4xl px-6">
         {/* Back link */}
         <Link
