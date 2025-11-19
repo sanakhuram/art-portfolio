@@ -1,0 +1,99 @@
+{
+  "title": "Metanoia",
+  "concept": "Metanoia is the turning of the soul—a slow, deliberate shift from the darkness we grow accustomed to toward the light we secretly long for. When one lives in shadows for too long, the darkness begins to feel like home; it wraps itself around the heart until it becomes a quiet prison. Yet every longing soul carries a spark that refuses to die. Roses unravel like layers of the self, butterflies signal rebirth, and gold leaf marks sacred moments of divine intervention. This series traces that inner journey: the struggle, the waiting, the surrender, and finally the reawakening. It is patience, reflection, breaking, healing—and ultimately, becoming.",
+
+  "materials": "Watercolor, gouache, ink, gold leaf on handmade wasli paper",
+
+  "paintings": [
+    {
+      "file": "1.jpg",
+      "name": "Repentance",
+      "slug": "repentance",
+      "description": "An intimate portrayal of the moment the heart recognizes its need for awakening.",
+      "process": "Layered washes, micro botanical detailing, dry-brush textures",
+      "extraImages": ["1a.jpg"],
+      "video": "repentance.mp4"
+    },
+    {
+      "file": "2.jpg",
+      "name": "The Waiting",
+      "slug": "the-waiting",
+      "description": "A moment suspended in longing — the quiet gestation of spiritual change.",
+      "process": "Layered washes, fine line textures",
+      "extraImages": ["2a.jpg"],
+      "video": "the-waiting.mp4"
+    },
+    {
+      "file": "3.jpg",
+      "name": "The Sanctuary",
+      "slug": "the-sanctuary",
+      "description": "A return to inner safety — a rediscovery of identity, peace, and spiritual shelter.",
+      "process": "Wet-on-dry, dot detailing, layered organic forms",
+      "extraImages": ["3a.jpg"],
+      "video": "the-sanctuary.mp4"
+    },
+    {
+      "file": "4.jpg",
+      "name": "The Belief",
+      "slug": "the-belief",
+      "description": "A meditation on evolution — from dust you rise, to dust you return, yet transformed.",
+      "process": "Gold leaf accents, symbolic botanical detailing",
+      "extraImages": ["4a.jpg"],
+      "video": "the-belief.mp4"
+    },
+    {
+      "file": "5.jpg",
+      "name": "Circle of life",
+      "slug": "circle-of-life",
+      "description": "The gentle emergence of the self — slow, patient, and luminous.",
+      "process": "Layered petal strokes, micro detailing",
+      "extraImages": ["5a.jpg"],
+      "video": "the-circle.mp4"
+    },
+    {
+      "file": "6.jpg",
+      "name": "The Offering",
+      "slug": "the-offering",
+      "description": "A symbolic gesture of surrender — letting go to embrace rebirth.",
+      "process": "Gold leaf, wet-on-dry texturing",
+      "extraImages": ["6a.jpg"],
+      "video": "the-offering.mp4"
+    },
+    {
+      "file": "7.jpg",
+      "name": "Metamorphosis",
+      "slug": "metamorphosis",
+      "description": "Transformation as a living force — shedding, shifting, evolving.",
+      "process": "Organic flow strokes, layered botanicals",
+      "extraImages": ["7a.jpg"],
+      "video": "metamorphosis.mp4"
+    },
+    {
+      "file": "8.jpg",
+      "name": "Heaven and Earth",
+      "slug": "heaven-and-earth",
+      "description": "The meeting point of earthly struggle and spiritual light.",
+      "process": "Layered washes, symbolic contrasts",
+      "extraImages": ["8a.jpg"],
+      "video": "heaven-and-earth.mp4"
+    },
+    {
+      "file": "9.jpg",
+      "name": "The Unfolding",
+      "slug": "the-unfolding",
+      "description": "Healing in stages — another chapter in the blossoming.",
+      "process": "Micro detailing and textures",
+      "extraImages": ["9a.jpg"],
+      "video": "the-unfolding.mp4"
+    },
+    {
+      "file": "10.jpg",
+      "name": "The Healing",
+      "slug": "the-healing",
+      "description": "A return to wholeness — where wounds become roots and roots become strength.",
+      "process": "Organic textures, fine botanical lines",
+      "extraImages": ["10a.jpg", "10b.jpg"],
+      "video": "the-healing.mp4"
+    }
+  ]
+}

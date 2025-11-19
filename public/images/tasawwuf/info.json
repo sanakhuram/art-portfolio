@@ -1,0 +1,96 @@
+{
+  "title": "Tasawwuf",
+  "description": "A collection of miniature paintings inspired by Sufism and Rumi’s vision of solitude with God. Each piece reflects stages of spiritual awakening, inner freedom, and the unfolding of divine presence.",
+  "paintings": [
+    {
+      "file": "1.jpg",
+      "name": "Whisper of Solitude",
+      "slug": "whisper-of-solitude",
+      "materials": "Gouache, gold leaf, handmade wasli paper",
+      "process": "Layered washes, micro detailing, dry-brush textures",
+      "extraImages": ["1a.jpg"],
+      "description": "Captures the sacred silence where the soul communes with the Divine."
+    },
+    {
+      "file": "2.jpg",
+      "name": "Light of Repentance",
+      "slug": "light-of-repentance",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["2a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A gentle illumination of the heart’s return to purity."
+    },
+    {
+      "file": "3.jpg",
+      "name": "Sanctuary Within",
+      "slug": "sanctuary-within",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["3a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Depicts the inner refuge where identity dissolves into divine presence."
+    },
+    {
+      "file": "4.jpg",
+      "name": "Waiting at the Threshold",
+      "slug": "waiting-at-the-threshold",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["4a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Symbolizes patience and surrender before the doorway to God."
+    },
+    {
+      "file": "5.jpg",
+      "name": "Heaven Embracing Earth",
+      "slug": "heaven-embracing-earth",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["5a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A union of spiritual and worldly realms in harmony."
+    },
+    {
+      "file": "6.jpg",
+      "name": "Unfolding of the Heart",
+      "slug": "unfolding-of-the-heart",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["6a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Represents the gradual revelation of divine truth within the seeker."
+    },
+    {
+      "file": "7.jpg",
+      "name": "Freedom Beyond the World",
+      "slug": "freedom-beyond-the-world",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["7a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Echoes Rumi’s vision of liberation more precious than life itself."
+    },
+    {
+      "file": "8.jpg",
+      "name": "Loneliness with God",
+      "slug": "loneliness-with-god",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["8a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A portrayal of the sacred solitude where the soul meets the Eternal."
+    },
+    {
+      "file": "9.jpg",
+      "name": "The Eternal Moment",
+      "slug": "the-eternal-moment",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["9a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Captures the timeless instant of union with the Divine."
+    },
+    {
+      "file": "10.jpg",
+      "name": "Metanoia",
+      "slug": "metanoia",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["10a.jpg","10b.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A spiritual transformation, the turning of the soul toward God."
+    }
+  ]
+}

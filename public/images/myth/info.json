@@ -1,0 +1,95 @@
+{
+  "title": "Mythological illustrations",
+  "description": "This collection of mythological illustrations weaves together stories from folklore, legend, and ancient belief. Each painting is a visual retelling of myths—Norse spirits, Greek gods, Roman deities, Indian fables, and forgotten tales—captured through layered textures, symbolic detailing, and luminous washes of watercolor and gouache. The works invite viewers into timeless narratives where sacrifice, transformation, and the mysteries of nature unfold in poetic form.",
+  "paintings": [
+    {
+      "file": "1.jpg",
+      "name": "Røde Liljer",
+      "slug": "røde-liljer",
+      "materials": "Gouache, gold leaf, handmade wasli paper",
+      "extraImages": ["1a.jpg"],
+      "process": "Layered washes, micro detailing, dry-brush textures",
+      "description": "Swedish folklore. A tale from the forest of Tiveden tells how the lake of Fagertärn gained its unique red water lilies through the intervention of the nøkken. A poor fisherman, struggling to provide for his family, met the nøkken who promised abundant catches in exchange for his daughter when she turned eighteen. On that day, the girl went to the shore, but instead of following the nøkken, she took a knife and declared he would never have her alive. She pierced her heart and fell into the lake, her blood coloring the lilies red. From that day, the water lilies of the forest remain crimson."
+    },
+    {
+      "file": "2.jpg",
+      "name": "A Musical Sacrifice",
+      "slug": "A-musical-sacrifice",
+      "materials": "Watercolor, ink",
+      "extraImages": ["2a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "I heard enchanted music, loud and clear,\nAnd so I came to listen for a while.\nHopeless, carrying darkness inside,\nThere he was—a stranger to my eyes.\n\nHe played as if he knew my despair,\nEach note cutting silence, each stroke telling my story.\nI prayed he would finish, but he played on,\nUnyielding, strong, a bow that sang like spirit.\n\nFrom the deep it echoed,\nThe legend of Fossegrim—\nThe water troll who sacrifices to master the violin,\nHis song forever binding sorrow to beauty."
+    },
+    {
+      "file": "3.jpg",
+      "name": "Skyie",
+      "slug": "sklie",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Inspired by Norse skies, Skyie recalls the myth of Yggdrasil’s canopy, where the heavens stretch across the world tree. The painting evokes the celestial dome that shelters gods and mortals alike, a reminder of the fragile veil between realms."
+    },
+    {
+      "file": "4.jpg",
+      "name": "Hulder",
+      "slug": "hulder",
+      "extraImages": ["4a.jpg"],
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "From Norwegian mythology, the Hulder is a forest spirit—beautiful from the front, but with a hollow back of rotting wood. She lures wanderers with song and charm, embodying both the seduction and danger of the wild."
+    },
+    {
+      "file": "5.jpg",
+      "name": "Leda",
+      "slug": "leda",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["5a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Greek mythology tells of Leda, queen of Sparta, who was visited by Zeus in the form of a swan. This union gave rise to children of both mortal and divine lineage, including Helen of Troy, whose beauty sparked the Trojan War."
+    },
+    {
+      "file": "6.jpg",
+      "name": "Flora's timeless Garden (an effortless land)",
+      "slug": "flora-timeless-garden",
+      "extraImages": ["6a.jpg"],
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Roman mythology honors Flora, goddess of flowers and spring. Her eternal garden blooms with lilacs, lavender, and butterflies—symbols of renewal, forgiveness, and surrender to nature’s cycles."
+    },
+    {
+      "file": "7.jpg",
+      "name": "The Plea",
+      "slug": "the-plea",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["7a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "An Indian myth tells of elephants who once had wings. One day, an elephant rested upon a great tree, breaking its branch and falling upon a meditating yogi. Angered, the yogi cursed away the wings of the beast. Since then, elephants walk the earth, forever yearning to reclaim their lost flight."
+    },
+    {
+      "file": "8.jpg",
+      "name": "The Lady on Moon",
+      "slug": "the-lady-moon",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["8a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Echoing myths of Chang’e, the Chinese moon goddess, this painting envisions a lady who ascended to the moon. Her presence embodies longing, immortality, and the eternal dance between earth and sky."
+    },
+    {
+      "file": "9.jpg",
+      "name": "The Cursed Flower Princess",
+      "slug": "bertina",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages": ["9a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A forgotten tale tells of a princess cursed to bloom as a flower at night. Her petals conceal sorrow, her fragrance carries longing. Only through sacrifice can the spell be broken, binding her fate to the cycles of nature."
+    },
+    {
+      "file": "10.jpg",
+      "name": "The Flying Thoughts",
+      "slug": "the-flying-thoughts",
+      "materials": "Watercolor, gouache, ink",
+      "extraImages":["10a.jpg"],
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Inspired by mythic muses, Flying Thoughts recalls the whispers of inspiration carried by unseen spirits. Like Hermes’ winged sandals or Odin’s ravens, they move swiftly, guiding mortals toward vision and creation."
+    }
+  ]
+}

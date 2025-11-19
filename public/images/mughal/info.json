@@ -1,0 +1,87 @@
+{
+  "title": "Mughal Miniature Series",
+  "description": "A collection inspired by Persian and Mughal manuscript traditions, blending courtly narratives, sacred scenes, and richly detailed ornamental borders.",
+  "paintings": [
+    {
+      "file": "1.jpg",
+      "name": "Al Khidar",
+      "slug": "al-khidar",
+      "materials": "Gouache, gold leaf, handmade wasli paper",
+      "process": "Layered washes, micro detailing, dry-brush textures",
+      "description": "Depicts the mystical figure Al Khidar, guardian of hidden wisdom, guiding seekers toward spiritual awakening.",
+      "extraImages": ["1a.jpg"]
+    },
+    {
+      "file": "2.jpg",
+      "name": "The Messenger",
+      "slug": "the-messenger",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Illustrates a royal envoy carrying sacred words and messages across kingdoms, embodying trust and divine duty.",
+      "extraImages": ["2a.jpg"]
+    },
+    {
+      "file": "3.jpg",
+      "name": "The Hunt in Red Dawn",
+      "slug": "the-hunt-at-red-dawn",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A dramatic courtly hunt at sunrise, symbolizing valor, discipline, and the fleeting beauty of dawn.",
+      "extraImages": ["3a.jpg"]
+    },
+    {
+      "file": "4.jpg",
+      "name": "The Mythical Alligator",
+      "slug": "the-mythical-alligator",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A fantastical beast from folklore, painted as a guardian of rivers and a symbol of hidden power.",
+      "extraImages": ["4a.jpg"]
+    },
+    {
+      "file": "5.jpg",
+      "name": "Narcissism",
+      "slug": "narcissism",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Echoes the myth of self-obsession, portraying a figure entranced by their own reflection in shimmering waters.",
+      "extraImages": ["5a.jpg"]
+    },
+    {
+      "file": "6.jpg",
+      "name": "The Curse of Echo",
+      "slug": "the-curse-of-echo",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Inspired by classical myth, this painting shows Echo condemned to repeat others’ words, a tale of longing and silence.",
+      "extraImages": ["6a.jpg"]
+    },
+    {
+      "file": "7.jpg",
+      "name": "Bull Fight",
+      "slug": "bull-fight",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Captures the raw energy of a Mughal arena, where strength and courage collide in ritual combat.",
+      "extraImages": ["7a.jpg"]
+    },
+    {
+      "file": "8.jpg",
+      "name": "The Evening Musical",
+      "slug": "the-evening-musical",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "A serene courtly gathering at twilight, filled with melodies, poetry, and the harmony of instruments.",
+      "extraImages": ["8a.jpg"]
+    },
+    {
+      "file": "9.jpg",
+      "name": "The Court at the Crimson Portal",
+      "slug": "the-court",
+      "materials": "Watercolor, gouache, ink",
+      "process": "Wet-on-dry, dot detailing, layered petal strokes",
+      "description": "Depicts a royal assembly framed by a crimson gateway, symbolizing authority, grandeur, and divine order.",
+      "extraImages": ["9a.jpg"]
+    }
+  ]
+}
