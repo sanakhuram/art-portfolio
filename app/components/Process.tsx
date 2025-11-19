@@ -17,11 +17,11 @@ const STEPS: Step[] = [
       "Cotton paper is layered with wheat-starch glue, pressed, and burnished with stone until it becomes wasli — a strong, smooth surface that can hold countless washes and strokes without warping.",
   },
   {
-    title: "Grinding Pigments",
+    title: "Mixing Pigments",
     subtitle: "Earth, stone, and color",
-    src: "/images/process/pigments.jpg",
+    src: "/images/process/pigment.jpg",
     description:
-      "Traditional pigments, watercolors, and gouache are ground on stone slabs with water and binding medium. The paint is tested in small swatches until the color sits cleanly on the wasli.",
+      "Traditional pigments, watercolors, and gouache are mixed with water and binding medium. The paint is tested in small swatches until the color sits cleanly on the wasli.",
   },
   {
     title: "Gad-rang",
@@ -40,14 +40,14 @@ const STEPS: Step[] = [
   {
     title: "Siyah Kalam",
     subtitle: "Fine line work",
-    src: "/images/process/siyah-kalam.jpg",
+    src: "/images/mughal/2.jpg",
     description:
       "Siyah kalam is the ultra-fine line work that defines miniature painting — eyelashes, veins in petals, folds in cloth. Lines are drawn with a needle-like brush and steady breath.",
   },
   {
     title: "Miniature Brushes",
     subtitle: "Pigeon feather & squirrel hair",
-    src: "/images/process/brushes.jpg",
+    src: "/images/process/brush.jpg",
     description:
       "Brushes are traditionally made from squirrel hair, pigeon feather shafts, and bamboo sticks. The tip must be able to lay a line finer than a strand of hair, yet hold enough pigment to flow smoothly.",
   },
@@ -72,13 +72,7 @@ const STEPS: Step[] = [
     description:
       "Glazes of shadow and light are added in slow layers to give softness to skin, weight to fabrics, and atmosphere to backgrounds. The goal is a quiet glow rather than harsh contrast.",
   },
-  {
-    title: "Final Burnish",
-    subtitle: "Sealing the story",
-    src: "/images/process/finish.jpg",
-    description:
-      "In the final stage, selected areas are gently burnished so the surface shines like ceramic. The wasli now carries not just an image, but hours of breath, decision, correction, and devotion.",
-  },
+
 ];
 
 export default function Process() {
