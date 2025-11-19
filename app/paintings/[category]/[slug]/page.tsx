@@ -19,7 +19,8 @@ export default async function PaintingPage({ params }: { params: Params }) {
   if (!painting) notFound();
 
   return (
-    <main className="bg-background min-h-svh pt-6 md:pt-10">
+    <main className="bg-background pt-6 md:pt-10 pb-20">
+
 
       <div className="mx-auto max-w-4xl px-6">
         {/* Back link */}
@@ -57,7 +58,7 @@ export default async function PaintingPage({ params }: { params: Params }) {
 
           <section>
             <h2 className="text-2xl font-display text-royal mb-2">Process</h2>
-            <p className="tracking-wide">{painting.process}</p>
+            <p className="tracking-wide ">{painting.process}</p>
           </section>
         </div>
       </div>
