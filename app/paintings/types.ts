@@ -10,6 +10,7 @@ export type Painting = {
   description: string;
   extraImages?: string[];
   video?: string;
+  quote?: string;
 };
 
 export type CategoryInfo = {

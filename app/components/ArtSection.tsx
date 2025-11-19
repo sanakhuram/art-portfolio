@@ -5,11 +5,31 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const ITEMS = [
-  { title: 'Metanoia',   slug: '/paintings/metanoia',  img: '/images/sparrow.png', alt: 'Sparrow' },
-  { title: 'Tasawwuf',   slug: '/paintings/tasawwuf',  img: '/images/hero-bird.png',    alt: 'Bird' },
-  { title: 'Mughal',     slug: '/paintings/mughal',    img: '/images/tree.png',    alt: 'Tree' },
-  { title: 'Mythology',  slug: '/paintings/mythology', img: '/images/flower.png',  alt: 'Flower' },
-  { title: 'Acceptance',     slug: '/paintings/acceptance',    img: '/images/birds.png',    alt: 'Leaf' }, // <- change if you want
+  {
+    title: 'Metanoia',
+    slug: '/paintings/metanoia',
+    img: '/images/sparrow.png',
+    alt: 'Sparrow',
+  },
+  {
+    title: 'Tasawwuf',
+    slug: '/paintings/tasawwuf',
+    img: '/images/hero-bird.png',
+    alt: 'Bird',
+  },
+  { title: 'Mughal', slug: '/paintings/mughal', img: '/images/tree.png', alt: 'Tree' },
+  {
+    title: 'Mythology',
+    slug: '/paintings/mythology',
+    img: '/images/flower.png',
+    alt: 'Flower',
+  },
+  {
+    title: 'Acceptance',
+    slug: '/paintings/acceptance',
+    img: '/images/birds.png',
+    alt: 'Leaf',
+  }, // <- change if you want
 ];
 
 export default function ArtSection() {

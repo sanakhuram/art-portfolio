@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import {
   FaGithub,
   FaLinkedin,
@@ -30,6 +31,13 @@ export default function Footer() {
     },
     { id: 'CV', icon: FaFileAlt, link: '/assets/CV-Sana.pdf' },
     { id: 'Email', icon: FaEnvelope, link: 'mailto:sana.khuram.baig@gmail.com' },
+
+    // ⭐ Portfolio PNG/SVG icon
+    {
+      id: 'Portfolio',
+      img: '/images/hero.svg',
+      link: 'https://sanakhm.netlify.app/',
+    },
   ];
 
   return (
@@ -90,7 +98,17 @@ export default function Footer() {
                   transition={{ duration: 0.3 }}
                   className="h-8 w-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full hover:bg-gray-500/10 transition-transform duration-200 hover:scale-110"
                 >
-                  <s.icon className="text-red-900 text-base sm:text-xl" />
+                  {s.icon ? (
+                    <s.icon className="text-red-900 text-base sm:text-xl" />
+                  ) : (
+                    <Image
+                      src={s.img}
+                      alt={s.id}
+                      width={22}
+                      height={22}
+                      className="object-contain"
+                    />
+                  )}
                 </motion.a>
               ))}
             </motion.div>

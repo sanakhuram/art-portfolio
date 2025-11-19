@@ -1,6 +1,6 @@
 {
   "title": "Tasawwuf",
-  "description": "A collection of miniature paintings inspired by Sufism and Rumi’s vision of solitude with God. Each piece reflects stages of spiritual awakening, inner freedom, and the unfolding of divine presence.",
+  "description": "A collection of miniature paintings inspired by Sufism and Rumi’s vision of solitude, surrender, and divine companionship. Each piece reflects a stage of spiritual awakening — from yearning and purification to inner illumination and union.",
   "paintings": [
     {
       "file": "1.jpg",
@@ -9,7 +9,8 @@
       "materials": "Gouache, gold leaf, handmade wasli paper",
       "process": "Layered washes, micro detailing, dry-brush textures",
       "extraImages": ["1a.jpg"],
-      "description": "Captures the sacred silence where the soul communes with the Divine."
+      "description": "A quiet chamber of the soul where the seeker withdraws from the noise of the world. The painting holds the moment when silence becomes a companion, and solitude turns into a doorway to God.",
+      "quote": "“Silence is the language of God; all else is poor translation.” — Rumi"
     },
     {
       "file": "2.jpg",
@@ -18,7 +19,8 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["2a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "A gentle illumination of the heart’s return to purity."
+      "description": "The soft illumination that enters the heart the moment it bows in humility. The bees, flowers, and shifting sky echo the soul’s rise from heaviness toward clarity.",
+      "quote": "“When the soul lies down in that grass, the world is too full to talk about.” — Rumi"
     },
     {
       "file": "3.jpg",
@@ -26,8 +28,9 @@
       "slug": "sanctuary-within",
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["3a.jpg"],
-      "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "Depicts the inner refuge where identity dissolves into divine presence."
+      "process": "Wet-on-dry, dot detailing, layered organic forms",
+      "description": "A sacred inner dwelling where the seeker discovers that safety was never in the world — it was always within. The nest cradles the self in a protective embrace of divine mercy.",
+      "quote": "“What you seek is seeking you.” — Rumi"
     },
     {
       "file": "4.jpg",
@@ -36,7 +39,8 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["4a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "Symbolizes patience and surrender before the doorway to God."
+      "description": "A soul seated between earth and sky, waiting without complaint. The stillness honors the patience required before divine openings.",
+      "quote": "“When the soul is ready, its teacher appears.” — Rumi"
     },
     {
       "file": "5.jpg",
@@ -45,7 +49,8 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["5a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "A union of spiritual and worldly realms in harmony."
+      "description": "A symbolic union of the celestial and the earthly — where human fragility touches divine compassion. Flowers bloom around spiritual awareness.",
+      "quote": "“Wherever you stand, be the soul of that place.” — Rumi"
     },
     {
       "file": "6.jpg",
@@ -54,7 +59,8 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["6a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "Represents the gradual revelation of divine truth within the seeker."
+      "description": "The heart opening in stages — sometimes through softness, sometimes through pain. The gold leaf signifies the divine truths revealed only to the patient.",
+      "quote": "“Raise your words, not your voice. It is rain that grows flowers, not thunder.” — Rumi"
     },
     {
       "file": "7.jpg",
@@ -63,7 +69,8 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["7a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "Echoes Rumi’s vision of liberation more precious than life itself."
+      "description": "A mystical freedom unbound by the weight of earthly concerns. Birds, open skies, and spiritual companions guide the seeker higher.",
+      "quote": "“Why are you so busy with this or that or good or bad? Pay attention to how things blend.” — Rumi"
     },
     {
       "file": "8.jpg",
@@ -72,7 +79,8 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["8a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "A portrayal of the sacred solitude where the soul meets the Eternal."
+      "description": "A depiction of the sacred solitude where companionship is purely divine. The seeker is surrounded by creation, yet inwardly turned toward the Beloved.",
+      "quote": "“When I am with you, we stay up all night. When you are not here, I cannot sleep.” — Rumi"
     },
     {
       "file": "9.jpg",
@@ -81,16 +89,18 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["9a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "Captures the timeless instant of union with the Divine."
+      "description": "A frozen instant of spiritual union — where past and future dissolve. All creation bears witness as the soul meets the Divine without veil.",
+      "quote": "“Close your eyes. Fall in love. Stay there.” — Rumi"
     },
     {
       "file": "10.jpg",
       "name": "Metanoia",
       "slug": "metanoia",
       "materials": "Watercolor, gouache, ink",
-      "extraImages": ["10a.jpg","10b.jpg"],
+      "extraImages": ["10a.jpg", "10b.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "A spiritual transformation, the turning of the soul toward God."
+      "description": "The turning of the soul — a full transformation from sorrow to surrender, from the weight of the world to divine companionship.",
+      "quote": "“Be melting snow. Wash yourself of yourself.” — Rumi"
     }
   ]
 }

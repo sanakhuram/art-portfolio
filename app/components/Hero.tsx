@@ -5,12 +5,13 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <section className="w-full min-h-screen flex flex-col md:grid md:grid-cols-[48%_52%] bg-background">
-
       {/* LEFT: big type */}
       <div className="flex items-center justify-center md:justify-start py-10 md:py-0">
         <div className="w-full max-w-[520px] pl-6 sm:pl-10 lg:pl-20">
           <h1 className="font-display font-extrabold leading-[0.82] text-6xl sm:text-8xl lg:text-9xl tracking-tight text-foreground">
-            PORT<br/>FOLIO
+            PORT
+            <br />
+            FOLIO
           </h1>
 
           <div className="mt-8">
@@ -37,7 +38,6 @@ export default function Hero() {
           />
         </div>
       </div>
-
     </section>
   );
 }

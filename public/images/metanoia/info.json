@@ -9,88 +9,97 @@
       "file": "1.jpg",
       "name": "Repentance",
       "slug": "repentance",
-      "description": "An intimate portrayal of the moment the heart recognizes its need for awakening.",
+      "description": "The moment of recognition—the first tremor of the soul turning back toward its own truth. Here, petals fall like confessions, each one shedding a layer of heaviness. The gold leaf above glows faintly, not yet reached but unmistakably present, waiting with mercy. Repentance is painted not as guilt, but as the soft opening of a locked door within the self.",
       "process": "Layered washes, micro botanical detailing, dry-brush textures",
       "extraImages": ["1a.jpg"],
       "video": "repentance.mp4"
     },
+
     {
       "file": "2.jpg",
       "name": "The Waiting",
       "slug": "the-waiting",
-      "description": "A moment suspended in longing — the quiet gestation of spiritual change.",
+      "description": "A suspended hour in the soul’s timeline—still, expectant, necessary. The painting breathes with the ache of becoming, a hush before transformation finally unfurls. Nothing moves, yet everything changes beneath the surface like roots quietly taking hold. It is the space where longing matures into readiness.",
       "process": "Layered washes, fine line textures",
       "extraImages": ["2a.jpg"],
       "video": "the-waiting.mp4"
     },
+
     {
       "file": "3.jpg",
       "name": "The Sanctuary",
       "slug": "the-sanctuary",
-      "description": "A return to inner safety — a rediscovery of identity, peace, and spiritual shelter.",
+      "description": "A sacred refuge built inside the self—woven from memory, softness, and returning courage. A nest of identity, where one can rest without fear or performance. The cracked gold fragments shimmer like gentle affirmations: you are allowed to pause; you are allowed to rebuild; you are allowed to begin again.",
       "process": "Wet-on-dry, dot detailing, layered organic forms",
       "extraImages": ["3a.jpg"],
       "video": "the-sanctuary.mp4"
     },
+
     {
       "file": "4.jpg",
       "name": "The Belief",
       "slug": "the-belief",
-      "description": "A meditation on evolution — from dust you rise, to dust you return, yet transformed.",
+      "description": "Faith blooms quietly—never in a rush, never with noise. The rising branches cradle the figure like a vow reborn, while the gold moon stands as witness to the courage required to hope again. Belief is shown not as perfection, but as a fragile light that insists on glowing even after darkness has tried to claim everything.",
       "process": "Gold leaf accents, symbolic botanical detailing",
       "extraImages": ["4a.jpg"],
       "video": "the-belief.mp4"
     },
+
     {
       "file": "5.jpg",
-      "name": "Circle of life",
+      "name": "Circle of Life",
       "slug": "circle-of-life",
-      "description": "The gentle emergence of the self — slow, patient, and luminous.",
+      "description": "Life spirals forward in soft, patient revolutions. Petals open like breaths, each layer revealing another truth, another wound, another beauty. At the center sits the forming self—protected, small, luminous. The painting holds the reassurance that rebirth never happens all at once; it unfolds in cycles, each one kinder than the last.",
       "process": "Layered petal strokes, micro detailing",
       "extraImages": ["5a.jpg"],
       "video": "the-circle.mp4"
     },
+
     {
       "file": "6.jpg",
       "name": "The Offering",
       "slug": "the-offering",
-      "description": "A symbolic gesture of surrender — letting go to embrace rebirth.",
+      "description": "A gesture of surrender—hands extended not in loss, but in trust. The vines wrap the figure tenderly, reminding us that even letting go can be an act of devotion. The gold above gleams like divine acceptance, turning the offering into a covenant: what you release will return transformed.",
       "process": "Gold leaf, wet-on-dry texturing",
       "extraImages": ["6a.jpg"],
       "video": "the-offering.mp4"
     },
+
     {
       "file": "7.jpg",
       "name": "Metamorphosis",
       "slug": "metamorphosis",
-      "description": "Transformation as a living force — shedding, shifting, evolving.",
+      "description": "Transformation as a living force—restless, inevitable, holy. Spirits rise and uncoil from old roots, shedding past identities like husks. This painting captures the beautiful violence of change: the tearing, the reshaping, the blooming. Nothing remains the same, and that is its power.",
       "process": "Organic flow strokes, layered botanicals",
       "extraImages": ["7a.jpg"],
       "video": "metamorphosis.mp4"
     },
+
     {
       "file": "8.jpg",
       "name": "Heaven and Earth",
       "slug": "heaven-and-earth",
-      "description": "The meeting point of earthly struggle and spiritual light.",
+      "description": "A soul caught between weight and light—between what keeps it grounded and what calls it upward. The barren tree and veiled moons echo the tension of spiritual duality. Yet even in this struggle, gold finds its way through, reminding us that divinity meets us exactly where we stand.",
       "process": "Layered washes, symbolic contrasts",
       "extraImages": ["8a.jpg"],
       "video": "heaven-and-earth.mp4"
     },
+
     {
       "file": "9.jpg",
       "name": "The Unfolding",
       "slug": "the-unfolding",
-      "description": "Healing in stages — another chapter in the blossoming.",
+      "description": "Healing does not arrive in sudden brilliance—it unfurls gently, petal by petal, over days and seasons. This rose reveals itself through layers of memory and tenderness, holding both old grief and new softness. The unfolding is not a destination but a lifelong rhythm of opening.",
       "process": "Micro detailing and textures",
       "extraImages": ["9a.jpg"],
       "video": "the-unfolding.mp4"
     },
+
     {
       "file": "10.jpg",
       "name": "The Healing",
       "slug": "the-healing",
-      "description": "A return to wholeness — where wounds become roots and roots become strength.",
+      "description": "Here the soul returns to itself—whole, held, rooted. The vines that once bound now support; the wounds that once weakened now anchor. The gold horizon glows like the first honest dawn after a long night. Healing is not the erasing of pain but its transformation into wisdom, strength, and quiet radiance.",
       "process": "Organic textures, fine botanical lines",
       "extraImages": ["10a.jpg", "10b.jpg"],
       "video": "the-healing.mp4"

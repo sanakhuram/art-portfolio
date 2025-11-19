@@ -7,4 +7,4 @@ export const CATEGORIES = [
   'acceptance',
 ] as const;
 
-export type Category = typeof CATEGORIES[number];
+export type Category = (typeof CATEGORIES)[number];

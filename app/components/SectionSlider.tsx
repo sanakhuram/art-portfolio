@@ -8,8 +8,8 @@ import { sections } from '../lib/sections';
 import Hero from './Hero';
 import AboutSection from './AboutSection';
 import ArtSection from './ArtSection';
-import Blog from './Process';
 import ContactSection from './ContactSection';
+import Process from './Process';
 
 const slideVariants = {
   initial: (direction: number) => ({
@@ -34,8 +34,8 @@ function renderSection(id: string) {
       return <AboutSection />;
     case 'art':
       return <ArtSection />;
-    case 'blog':
-      return <Blog />;
+    case 'process':
+      return <Process />;
     case 'contact':
       return <ContactSection />;
     default:

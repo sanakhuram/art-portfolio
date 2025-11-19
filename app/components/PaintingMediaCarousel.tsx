@@ -1,8 +1,8 @@
 // app/components/PaintingMediaCarousel.tsx
-"use client";
+'use client';
 
-import { useState } from "react";
-import Image from "next/image";
+import { useState } from 'react';
+import Image from 'next/image';
 
 type Props = {
   title: string;
@@ -12,8 +12,8 @@ type Props = {
 };
 
 type MediaItem =
-  | { kind: "image"; src: string; alt: string }
-  | { kind: "video"; src: string; alt: string };
+  | { kind: 'image'; src: string; alt: string }
+  | { kind: 'video'; src: string; alt: string };
 
 export default function PaintingMediaCarousel({
   title,
@@ -23,9 +23,9 @@ export default function PaintingMediaCarousel({
 }: Props) {
   // Build the media list: main image → extra images → optional video
   const items: MediaItem[] = [
-    { kind: "image", src: mainSrc, alt: title },
+    { kind: 'image', src: mainSrc, alt: title },
     ...extraImages.map((src, i) => ({
-      kind: "image" as const,
+      kind: 'image' as const,
       src,
       alt: `${title} detail ${i + 1}`,
     })),
@@ -33,7 +33,7 @@ export default function PaintingMediaCarousel({
 
   if (video) {
     items.push({
-      kind: "video",
+      kind: 'video',
       src: video,
       alt: `${title} – video installation`,
     });
@@ -50,7 +50,7 @@ export default function PaintingMediaCarousel({
     <section className="mt-8">
       {/* Big media area */}
       <div className="rounded-lg overflow-hidden shadow-lg bg-black/5">
-        {active.kind === "image" && (
+        {active.kind === 'image' && (
           <Image
             src={active.src}
             alt={active.alt}
@@ -60,12 +60,8 @@ export default function PaintingMediaCarousel({
           />
         )}
 
-        {active.kind === "video" && (
-          <video
-            className="w-full h-auto"
-            controls
-            preload="metadata"
-          >
+        {active.kind === 'video' && (
+          <video className="w-full h-auto" controls preload="metadata">
             <source src={active.src} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -74,9 +70,7 @@ export default function PaintingMediaCarousel({
 
       {/* Caption */}
       <p className="mt-3 text-sm text-royal/80 italic">
-        {active.kind === "video"
-          ? "Video installation / documentation"
-          : active.alt}
+        {active.kind === 'video' ? 'Video installation / documentation' : active.alt}
       </p>
 
       {/* Thumbnails */}
@@ -90,11 +84,11 @@ export default function PaintingMediaCarousel({
               className={`relative shrink-0 rounded-md overflow-hidden border
                 ${
                   index === activeIndex
-                    ? "border-royal ring-2 ring-royal/60"
-                    : "border-royal/20 hover:border-royal/60"
+                    ? 'border-royal ring-2 ring-royal/60'
+                    : 'border-royal/20 hover:border-royal/60'
                 }`}
             >
-              {item.kind === "image" ? (
+              {item.kind === 'image' ? (
                 <Image
                   src={item.src}
                   alt={item.alt}

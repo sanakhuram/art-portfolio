@@ -11,8 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-    <body className={`${display.variable} ${heading.variable} ${body.variable}`}>
-
+      <body className={`${display.variable} ${heading.variable} ${body.variable}`}>
         {children}
         <Footer />
       </body>
