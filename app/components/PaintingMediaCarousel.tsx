@@ -8,7 +8,7 @@ type Props = {
   title: string;
   mainSrc: string;
   extraImages?: string[];
-  video?: string; 
+  video?: string;
 };
 
 type MediaItem =

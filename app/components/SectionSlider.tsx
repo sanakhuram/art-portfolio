@@ -62,7 +62,6 @@ export default function SectionSlider() {
 
   return (
     <div className="relative min-h-screen overflow-hidden">
-
       {/* TOP NAV */}
       <SectionNav currentIndex={currentIndex} onSelect={(i) => goTo(i)} />
 
