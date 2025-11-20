@@ -8,7 +8,7 @@ export default function Loader() {
       <Image
         src="/images/loader.gif"
         alt="Loading..."
-        width={500}
+        width={200}
         height={90}
         unoptimized
         className="opacity-90"
