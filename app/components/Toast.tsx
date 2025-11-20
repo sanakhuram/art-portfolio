@@ -22,7 +22,7 @@ export default function Toast({ show, onClose }: { show: boolean; onClose: () =>
               alt="Butterfly"
               width={50}
               height={50}
-              className="absolute -top-4 -right-4 opacity-90"
+              className="absolute top-4 -right-4 opacity-90"
             />
 
             <p className="font-light leading-relaxed">

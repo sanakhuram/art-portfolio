@@ -83,7 +83,7 @@ export default function ContactSection() {
                     type="text"
                     name="name"
                     placeholder="Your Name"
-                    className="mt-1 px-2 py-1 rounded-md border border-sage/60 bg-transparent focus:border-royal focus:border-dashed"
+                    className="mt-1 px-2 py-1 rounded-md w-70 border border-sage/60 bg-transparent focus:border-royal focus:border-dashed"
                     required
                   />
                 </label>
