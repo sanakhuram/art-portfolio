@@ -1,6 +1,6 @@
 {
   "title": "Acceptance",
-  "description": "A collection that reflects the artist’s journey of embracing selfhood, memory, and myth. Each painting is a mirror of inner landscapes — where mythological roots and personal places converge into a quiet act of acceptance.",
+  "description": "A collection that reflects the artist’s journey of embracing selfhood, memory, and myth. Each painting is a mirror of inner landscapes where mythological roots and personal places converge into a quiet act of acceptance.",
   "paintings": [
     {
       "file": "1.jpg",
@@ -9,7 +9,7 @@
       "extraImages": ["1a.jpg"],
       "materials": "Gouache, gold leaf, handmade wasli paper",
       "process": "Layered washes, micro detailing, dry-brush textures",
-      "description": "Named after the sacred tree of Norse mythology, Yggdrasil symbolizes interconnectedness — roots reaching into the underworld, branches stretching into the heavens. This painting becomes a metaphor for the artist’s own life: rooted in memory, yet constantly reaching toward transcendence."
+      "description": "Named after the sacred tree of Norse mythology, Yggdrasil symbolizes interconnectedness  roots reaching into the underworld, branches stretching into the heavens. This painting becomes a metaphor for the artist’s own life: rooted in memory, yet constantly reaching toward transcendence."
     },
     {
       "file": "2.jpg",
@@ -18,7 +18,7 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["2a.jpg", "2b.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "This work evokes a familiar landscape — not just physical, but emotional. It is a sanctuary of rediscovery, where fragments of identity gather like petals in bloom. The title suggests intimacy: a place within the self that is both remembered and reimagined."
+      "description": "This work evokes a familiar landscape  not just physical, but emotional. It is a sanctuary of rediscovery, where fragments of identity gather like petals in bloom. The title suggests intimacy: a place within the self that is both remembered and reimagined."
     }
   ]
 }

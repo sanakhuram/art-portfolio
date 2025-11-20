@@ -1,6 +1,6 @@
 {
   "title": "Tasawwuf",
-  "description": "A collection of miniature paintings inspired by Sufism and Rumi’s vision of solitude, surrender, and divine companionship. Each piece reflects a stage of spiritual awakening — from yearning and purification to inner illumination and union.",
+  "description": "A collection of miniature paintings inspired by Sufism and Rumi’s vision of solitude, surrender, and divine companionship. Each piece reflects a stage of spiritual awakening from yearning and purification to inner illumination and union.",
   "paintings": [
     {
       "file": "1.jpg",
@@ -29,7 +29,7 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["3a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered organic forms",
-      "description": "A sacred inner dwelling where the seeker discovers that safety was never in the world — it was always within. The nest cradles the self in a protective embrace of divine mercy.",
+      "description": "A sacred inner dwelling where the seeker discovers that safety was never in the world it was always within. The nest cradles the self in a protective embrace of divine mercy.",
       "quote": "“What you seek is seeking you.” — Rumi"
     },
     {
@@ -49,7 +49,7 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["5a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "A symbolic union of the celestial and the earthly — where human fragility touches divine compassion. Flowers bloom around spiritual awareness.",
+      "description": "A symbolic union of the celestial and the earthly where human fragility touches divine compassion. Flowers bloom around spiritual awareness.",
       "quote": "“Wherever you stand, be the soul of that place.” — Rumi"
     },
     {
@@ -59,7 +59,7 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["6a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "The heart opening in stages — sometimes through softness, sometimes through pain. The gold leaf signifies the divine truths revealed only to the patient.",
+      "description": "The heart opening in stages sometimes through softness, sometimes through pain. The gold leaf signifies the divine truths revealed only to the patient.",
       "quote": "“Raise your words, not your voice. It is rain that grows flowers, not thunder.” — Rumi"
     },
     {
@@ -89,7 +89,7 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["9a.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "A frozen instant of spiritual union — where past and future dissolve. All creation bears witness as the soul meets the Divine without veil.",
+      "description": "A frozen instant of spiritual union where past and future dissolve. All creation bears witness as the soul meets the Divine without veil.",
       "quote": "“Close your eyes. Fall in love. Stay there.” — Rumi"
     },
     {
@@ -99,7 +99,7 @@
       "materials": "Watercolor, gouache, ink",
       "extraImages": ["10a.jpg", "10b.jpg"],
       "process": "Wet-on-dry, dot detailing, layered petal strokes",
-      "description": "The turning of the soul — a full transformation from sorrow to surrender, from the weight of the world to divine companionship.",
+      "description": "The turning of the soul a full transformation from sorrow to surrender, from the weight of the world to divine companionship.",
       "quote": "“Be melting snow. Wash yourself of yourself.” — Rumi"
     }
   ]

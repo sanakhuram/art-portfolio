@@ -8,17 +8,17 @@ const SLIDES = [
   {
     heading: 'ABOUT ME',
     image: '/images/self1.png',
-    text: `I’m a traditional miniature artist who grew up surrounded by stories, folklore, and poetry — the kind that travels through families long before it reaches paper. Life brought me from Pakistan to Norway, but my roots never left my brush. My recent work is all about acceptance and belonging; merging the warmth of tradition with the quiet Nordic light that now shapes my days.`,
+    text: `I’m a traditional miniature artist who grew up surrounded by stories, folklore, and poetry the kind that travels through families long before it reaches paper. Life brought me from Pakistan to Norway, but my roots never left my brush. My recent work is all about acceptance and belonging; merging the warmth of tradition with the quiet Nordic light that now shapes my days.`,
   },
   {
     heading: 'PRACTICE',
     image: '/images/self2.png',
-    text: `My practice sits between the old and the new. I keep the discipline and precision of miniature painting — careful lines, symbolic elements, and narrative cycles — but I let my palette evolve. The colors shifted from classic pigments to sepia tones and weather-softened hues. I like painting stories that move in circles: beginnings looping back to endings.`,
+    text: `My practice sits between the old and the new. I keep the discipline and precision of miniature painting symbolic elements, and narrative cycles but I let my palette evolve. The colors shifted from classic pigments to sepia tones and weather-softened hues. I like painting stories that move in circles: beginnings looping back to endings.`,
   },
   {
     heading: 'STORYTELLING',
     image: '/images/self3.png',
-    text: `I’m deeply drawn to folklore, myths, and character-building. I create my own figures, shaped by poetry, memory, and fragments of the world around me. Every piece begins with a narrative — a quiet moment, a wandering idea — and grows into a character or a scene. I like storytelling that isn’t loud… it’s stitched into the lines and patterns themselves.`,
+    text: `I’m deeply drawn to folklore, myths, and character-building. I create my own figures, shaped by poetry, memory, and fragments of the world around me. Every piece begins with a narrative  a quiet moment, a wandering idea — and grows into a character or a scene. I like storytelling that isn’t loud… it’s stitched into the lines and patterns themselves.`,
   },
   {
     heading: 'EDUCATION',

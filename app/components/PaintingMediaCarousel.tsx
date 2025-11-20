@@ -8,7 +8,7 @@ type Props = {
   title: string;
   mainSrc: string;
   extraImages?: string[];
-  video?: string; // full path like `/images/metanoia/repentance.mp4`
+  video?: string; 
 };
 
 type MediaItem =
@@ -21,7 +21,6 @@ export default function PaintingMediaCarousel({
   extraImages = [],
   video,
 }: Props) {
-  // Build the media list: main image → extra images → optional video
   const items: MediaItem[] = [
     { kind: 'image', src: mainSrc, alt: title },
     ...extraImages.map((src, i) => ({
