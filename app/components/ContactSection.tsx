@@ -38,7 +38,8 @@ export default function ContactSection() {
     <>
       <Toast show={showToast} onClose={handleToastClose} />
 
-      <section className="w-full min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-20 py-20">
+     <section className="w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-6 md:px-20 py-20">
+
         <div className="relative p-1 rounded-lg border-4 border-dashed border-sage">
           <div className="relative flex flex-col md:flex-row w-full max-w-6xl rounded-lg shadow-lg border-2 border-dashed border-sage p-6 sm:p-8">
 
