@@ -26,6 +26,7 @@
       "file": "3.jpg",
       "name": "Skyie",
       "slug": "skyie",
+      "extraImages": ["3a.jpg"],
       "materials": "Watercolor, gouache, ink",
       "process": "Wet-on-dry layers, dotted detailing, soft sky-tone blending.",
       "description": "Inspired by Norse skies, this piece recalls the canopy of Yggdrasil—the celestial veil that stretches over gods and mortals. Skyie reflects the shimmering boundary between realms, where the heavens rest lightly upon the world tree."
