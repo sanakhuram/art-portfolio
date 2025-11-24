@@ -11,6 +11,9 @@ export default function Loader() {
         width={200}
         height={90}
         unoptimized
+        loading="eager"
+        priority
+        style={{ width: "auto", height: "auto" }}
         className="opacity-90"
       />
     </div>

@@ -56,6 +56,7 @@ export default function ArtSection() {
                 sizes="(min-width:1024px) 18vw, (min-width:640px) 30vw, 45vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
                 priority={false}
+                loading="eager"
               />
 
               {/* hover/focus overlay */}

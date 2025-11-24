@@ -59,6 +59,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
                 width={800}
                 height={1000}
                 className="w-full h-auto object-cover"
+                loading="eager"
               />
               <div className="p-2 text-center text-sm text-royal/80">{p.name}</div>
             </Link>
