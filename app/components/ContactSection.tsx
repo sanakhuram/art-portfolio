@@ -60,12 +60,10 @@ export default function ContactSection() {
               >
                 CONTACT <br /> ME
               </h2>
-
               <p
                 className={`${body.className ?? body.variable} text-foreground text-base sm:text-lg mb-3`}
               >
-                I’m open for web development, collaborations, and UX/UI design. You’re
-                welcome to reach out anytime.
+                Currently fully booked, but always available for questions or future commission guidance.
               </p>
 
               <p
@@ -91,9 +89,10 @@ export default function ContactSection() {
                     type="text"
                     name="name"
                     placeholder="Your Name"
-                    className="mt-1 px-2 py-1 rounded-md w-70 border border-sage/60 bg-transparent focus:border-royal focus:border-dashed"
+                    className="mt-1 px-2 py-1 rounded-md w-70 border border-sage/60 border-dashed bg-transparent focus:border-royal"
                     required
                   />
+
                 </label>
 
                 <label
@@ -104,9 +103,10 @@ export default function ContactSection() {
                     type="email"
                     name="email"
                     placeholder="Your Email"
-                    className="mt-1 px-2 py-1 rounded-md border border-sage/60 bg-transparent focus:border-royal focus:border-dashed"
+                    className="mt-1 px-2 py-1 rounded-md border border-sage/60 border-dashed bg-transparent focus:border-royal"
                     required
                   />
+
                 </label>
 
                 <label
@@ -116,10 +116,11 @@ export default function ContactSection() {
                   <textarea
                     name="message"
                     placeholder="Your Message"
-                    className="mt-1 px-2 py-2 rounded-md border border-sage/60 bg-transparent h-32 resize-none focus:border-royal focus:border-dashed"
+                    className="mt-1 px-2 py-2 rounded-md border border-sage/60 border-dashed bg-transparent h-32 resize-none focus:border-royal"
                     maxLength={1000}
                     required
                   />
+
                 </label>
 
                 <button
