@@ -38,11 +38,9 @@ export default function ContactSection() {
     <>
       <Toast show={showToast} onClose={handleToastClose} />
 
-     <section className="w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-6 md:px-20 py-20">
-
+      <section className="w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-6 md:px-20 py-20">
         <div className="relative p-1 rounded-lg border-4 border-dashed border-sage">
           <div className="relative flex flex-col md:flex-row w-full max-w-6xl rounded-lg shadow-lg border-2 border-dashed border-sage sm:p-8">
-
             {/* Stamp */}
             <div className="absolute top-4 right-4 md:w-20 md:h-20">
               <Image
@@ -57,19 +55,27 @@ export default function ContactSection() {
 
             {/* LEFT */}
             <div className="md:w-1/2 flex flex-col items-start justify-center border-b md:border-b-0 md:border-r border-sage/50 p-4 sm:p-6">
-              <h2 className={`${display.className ?? display.variable} text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-royal font-extrabold mb-4 leading-[1.05]`}>
+              <h2
+                className={`${display.className ?? display.variable} text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-royal font-extrabold mb-4 leading-[1.05]`}
+              >
                 CONTACT <br /> ME
               </h2>
 
-              <p className={`${body.className ?? body.variable} text-foreground text-base sm:text-lg mb-3`}>
-                I’m open for web development, collaborations, and UX/UI design.
-                You’re welcome to reach out anytime.
+              <p
+                className={`${body.className ?? body.variable} text-foreground text-base sm:text-lg mb-3`}
+              >
+                I’m open for web development, collaborations, and UX/UI design. You’re
+                welcome to reach out anytime.
               </p>
 
-              <p className={`${body.className ?? body.variable} text-foreground text-base sm:text-lg mb-2`}>
+              <p
+                className={`${body.className ?? body.variable} text-foreground text-base sm:text-lg mb-2`}
+              >
                 Email: <strong className="text-royal">sana.khuram.baig@gmail.com</strong>
               </p>
-              <p className={`${body.className ?? body.variable} text-foreground text-base sm:text-lg`}>
+              <p
+                className={`${body.className ?? body.variable} text-foreground text-base sm:text-lg`}
+              >
                 Phone: <strong className="text-royal">+47 40140362</strong>
               </p>
             </div>
@@ -77,8 +83,9 @@ export default function ContactSection() {
             {/* RIGHT — FORM */}
             <div className="md:w-1/2 flex flex-col gap-3 p-4 sm:p-6">
               <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-                
-                <label className={`${body.className ?? body.variable} flex flex-col text-sm sm:text-base text-royal`}>
+                <label
+                  className={`${body.className ?? body.variable} flex flex-col text-sm sm:text-base text-royal`}
+                >
                   Name: *
                   <input
                     type="text"
@@ -89,7 +96,9 @@ export default function ContactSection() {
                   />
                 </label>
 
-                <label className={`${body.className ?? body.variable} flex flex-col text-sm sm:text-base text-royal`}>
+                <label
+                  className={`${body.className ?? body.variable} flex flex-col text-sm sm:text-base text-royal`}
+                >
                   Email: *
                   <input
                     type="email"
@@ -100,7 +109,9 @@ export default function ContactSection() {
                   />
                 </label>
 
-                <label className={`${body.className ?? body.variable} flex flex-col text-sm sm:text-base text-royal`}>
+                <label
+                  className={`${body.className ?? body.variable} flex flex-col text-sm sm:text-base text-royal`}
+                >
                   Message: * (max 1000 characters)
                   <textarea
                     name="message"
@@ -117,7 +128,6 @@ export default function ContactSection() {
                 >
                   Send →
                 </button>
-
               </form>
             </div>
           </div>

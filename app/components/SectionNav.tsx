@@ -16,7 +16,8 @@ export default function SectionNav({ currentIndex, onSelect }: SimpleNavProps) {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className={`${body.className} fixed top-5 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap items-center gap-1 text-red-900 text-sm sm:text-sm`}
+      className={`${body.className} fixed top-5 left-1/2 -translate-x-1/2 z-50 flex flex-nowrap items-center gap-1 
+text-[10px] sm:text-xs md:text-sm text-red-900`}
     >
       {sections.map((section, i) => {
         const isActive = i === currentIndex;
@@ -24,9 +25,9 @@ export default function SectionNav({ currentIndex, onSelect }: SimpleNavProps) {
           <span key={section.id} className="flex items-center">
             <button
               onClick={() => onSelect(i)}
-              className={`uppercase transition-transform duration-200 transform hover:-translate-y-1 ${
-                isActive ? 'underline underline-offset-4' : ''
-              }`}
+              className={`uppercase transition-transform duration-200 transform hover:-translate-y-1
+  text-[10px] sm:text-xs md:text-sm
+  ${isActive ? 'underline underline-offset-4' : ''}`}
             >
               {section.content}
             </button>
