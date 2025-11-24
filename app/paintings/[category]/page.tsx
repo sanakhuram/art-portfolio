@@ -49,7 +49,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
         <div className="columns-2 sm:columns-3 lg:columns-4 gap-6 mt-10">
           {data.paintings.map((p: Painting) => (
             <Link
-              key={`${p.slug}-${p.file}`} // ✅ now guaranteed unique
+              key={`${p.slug}-${p.file}`}
               href={`/paintings/${cat}/${p.slug}`}
               className="block mb-6 break-inside-avoid rounded-lg overflow-hidden shadow ring-1 ring-black/10 bg-linen hover:opacity-90 transition"
             >
@@ -64,13 +64,13 @@ export default async function CategoryPage({ params }: { params: Params }) {
             </Link>
           ))}
         </div>
-
         <Link
           href="/#paintings"
-          className="mt-12 inline-block text-royal underline underline-offset-4"
+          className="mt-12 mb-10 inline-block text-royal text-2xl hover:text-sage transition"
         >
-          ← Back to categories
+          ←
         </Link>
+
       </div>
     </main>
   );
