@@ -1,4 +1,3 @@
-
 # 🎨 Art Illustration Portfolio
 
 ### *A personal world of miniature art, color, and front-end development*
@@ -12,20 +11,23 @@ Every page, color, stroke, animation, and layout is crafted with intention — s
 
 ---
 
-🔗 Live Site
-<a href="https://artillustration.netlify.app/" target="_blank"> <img src="https://img.shields.io/badge/Live%20Site-Art%20Portfolio-9A6AFF?style=for-the-badge&logo=netlify&logoColor=white" /> </a>
+## 🔗 Live Site
+
+<a href="https://artillustration.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Live%20Site-Art%20Portfolio-6B8F71?style=for-the-badge&logo=netlify&logoColor=white" />
+</a>
 
 ---
 
 ## 🚀 Tech Stack
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 8px; flex-wrap: wrap;">
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=%2361DAFB" />  
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />  
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />  
-<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />  
-<img src="https://img.shields.io/badge/Framer%20Motion-000000?style=for-the-badge&logo=framer&logoColor=white" />  
+<img src="https://img.shields.io/badge/React-6B8F71?style=for-the-badge&logo=react&logoColor=%2361DAFB" />  
+<img src="https://img.shields.io/badge/Next.js-556B2F?style=for-the-badge&logo=nextdotjs&logoColor=white" />  
+<img src="https://img.shields.io/badge/TypeScript-C9B79C?style=for-the-badge&logo=typescript&logoColor=black" />  
+<img src="https://img.shields.io/badge/TailwindCSS-9DBFAF?style=for-the-badge&logo=tailwindcss&logoColor=white" />  
+<img src="https://img.shields.io/badge/Framer%20Motion-C86B3C?style=for-the-badge&logo=framer&logoColor=white" />
 
 </div>
 
@@ -92,17 +94,26 @@ Not reproducible.
 ## 🔒 License & Permissions
 
 **All artwork, images, descriptions, layouts, colors, and creative assets are copyrighted and not permitted for copying or reuse.**
-
 The source code may be viewed for learning or inspiration only.
 
 ---
 
 ## 📬 Contact
 
-If you’d like to connect:
+<a href="https://artillustration.netlify.app" target="_blank">
+  <img src="https://img.shields.io/badge/Art%20Portfolio-Visit-6B8F71?style=for-the-badge&logo=netlify&logoColor=white" />
+</a>
 
-**Art Portfolio:** [https://artillustration.netlify.app](https://artillustration.netlify.app)
-**Front-End Portfolio:** [https://sanakhm.netlify.app](https://sanakhm.netlify.app)
-**Email:** [sana.khuram.baig@gmail.com](mailto:sana.khuram.baig@gmail.com)
-**LinkedIn:** [https://www.linkedin.com/in/sanakhuram](https://www.linkedin.com/in/sanakhuram)
+<a href="https://sanakhm.netlify.app" target="_blank">
+  <img src="https://img.shields.io/badge/Front--End%20Portfolio-Visit-9DBFAF?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+<a href="mailto:sana.khuram.baig@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-C86B3C?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/sanakhuram" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-C9B79C?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
 
