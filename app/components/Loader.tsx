@@ -8,8 +8,8 @@ export default function Loader() {
       <Image
         src="/images/loader.gif"
         alt="Loading..."
-        width={200}
-        height={90}
+        width={100}
+        height={50}
         unoptimized
         loading="eager"
         priority

@@ -29,7 +29,7 @@ export default function Footer() {
       icon: FaInstagram,
       link: 'https://www.instagram.com/sana_khuram/?igsh=MTBneHhvd2d2eXB2dg%3D%3D#',
     },
-    { id: 'CV', icon: FaFileAlt, link: '/assets/CV-Sana.pdf' },
+    { id: 'CV', icon: FaFileAlt, link: '/assests/CV-Sana.pdf' },
     { id: 'Email', icon: FaEnvelope, link: 'mailto:sana.khuram.baig@gmail.com' },
 
     // ⭐ Portfolio PNG/SVG icon
